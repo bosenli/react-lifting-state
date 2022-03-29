@@ -15,9 +15,7 @@ import FruitContainer from './components/FruitContainer';
 function App() {
   return (
     <div className="App">
-      <FruitList />
-      <Data />
-      <FruitContainer fruits={fruitList} />
+       <FruitContainer fruits={fruitList} />
     </div>
   );
 }
